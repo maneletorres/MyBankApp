@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyAppBank</string>
+    <string name="app_name">MyBankApp</string>
     <string name="empty_list">No data</string>
 
     <!-- String's for option's menu: -->
