@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">MyAppBank</string>
+    <string name="app_name">MyBankApp</string>
     <string name="accounts_header">Cuentas</string>
     <string name="preferences_header">Preferencias</string>
     <string name="mainImage">Imagen principal</string>
