@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+    <string-array name="option">
+        <item>@string/local_database</item>
+        <item>@string/web_service</item>
+    </string-array>
+    <string-array name="codeOption">
+        <item>@string/loc</item>
+        <item>@string/web</item>
+    </string-array>
+</resources>

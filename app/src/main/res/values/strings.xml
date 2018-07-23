@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name">MyAppBank</string>
+    <string name="empty_list">No data</string>
+
+    <!-- String's for option's menu: -->
+    <string name="action_settings">Settings</string>
+    <string name="action_global_position">Global position</string>
+    <string name="action_income">Income</string>
+    <string name="action_transfers">Transfers</string>
+    <string name="action_change_password">Change password</string>
+    <string name="action_near">Closest ATM\'s</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_add">Add</string>
+    <string name="action_preferences">Preferences</string>
+    <string name="action_update">Update</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_save">Save</string>
+    <string name="action_gps">GPS</string>
+    <string name="action_view">Change view</string>
+
+    <!-- String's for Button's: -->
+    <string name="global_position">Global position</string>
+    <string name="income">Income</string>
+    <string name="transfers">Transfers</string>
+    <string name="change_password">Change password</string>
+    <string name="atms">ATM\'s</string>
+    <string name="enter">Enter</string>
+    <string name="exit">Exit</string>
+
+    <!-- String's for headings: -->
+    <string name="login_header">Login</string>
+    <string name="preferences_header">Preferences</string>
+    <string name="new_user_header">Add a new user</string>
+    <string name="options_header">Options</string>
+    <string name="new_transfer_header">Add a new transfer</string>
+    <string name="new_ATM_header">Add a new ATM</string>
+    <string name="options">Options:</string>
+    <string name="global_position_header">Global position:</string>
+    <string name="transfers_header">Transfers:</string>
+    <string name="atms_header">ATM\'s:</string>
+    <string name="login">Login:</string>
+    <string name="accounts_header">Accounts:</string>
+    <string name="accounts_and_balances">Accounts and balances:</string>
+    <string name="income_accounts">Income accounts:</string>
+    <string name="transfer_accounts">Transfer accounts:</string>
+
+    <!-- String's for AlertDialog: -->
+    <string name="information">Information:</string>
+    <string name="transfers_resume">Transfer\'s resume:</string>
+    <string name="requirement">You must fill in all fields.</string>
+    <string name="user_does_not_exist">The user entered does not exist.</string>
+    <string name="password_not_valid">The password entered for this user is not valid.</string>
+    <string name="format_user_accepted">The username must consist of 8 numbers and a letter. Please, review the information entered.</string>
+    <string name="client_entered">The client has been entered correctly.</string>
+    <string name="client_not_entered">The client could not be entered.</string>
+    <string name="user_exists">The entered user number already exists. You must choose another one.</string>
+    <string name="atm_entered">The ATM has been entered correctly.</string>
+    <string name="atm_not_entered">The ATM could not be entered.</string>
+    <string name="enter_password">Enter a new password:</string>
+    <string name="cancel">Cancel</string>
+    <string name="activate_gps">Do you want to activate GPS?</string>
+    <string name="close_session">Do you want to close the session?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="delete_atm">Do you want to delete this ATM?</string>
+    <string name="transfer_type">Type:</string>
+    <string name="discount">Discount</string>
+    <string name="entry">Entry</string>
+    <string name="refund">Refund</string>
+    <string name="transfer_origin_account">Origin account:</string>
+    <string name="transfer_destination_account">Destination account:</string>
+    <string name="transfer_date">Date:</string>
+    <string name="transfer_description">Description:</string>
+    <string name="transfer_amount">Amount:</string>
+    <string name="current_balance">Current Balance:</string>
+    <string name="originAccountDoesNotExist">The origin account entered does not exist.</string>
+    <string name="destinationAccountDoesNotExist">The destination account entered does not exist.</string>
+    <string name="insufficientBalance">You do not have enough balance to make the transfer.</string>
+    <string name="repeated_accounts">The origin account and the destination account can not be the same.</string>
+    <string name="zeroAmount">The amount of the operation can not be 0.</string>
+    <string name="transfer_executed">The transfer has been carried out.</string>
+    <string name="transfer_canceled">An error has occurred and the transfer has not taken place.</string>
+
+    <!-- String's for preferences: -->
+    <string name="accessibility_options">Accessibility options</string>
+    <string name="indicate_database_type">Indicate the type of database</string>
+    <string name="database_question">What type of database do you want to use?</string>
+    <string name="database_type">Type of database</string>
+    <string name="navigation_options">Navigation options</string>
+    <string name="music_description">Listen to the music while the application is running</string>
+    <string name="music">Music</string>
+    <string name="video_description">View the presentation video while the application is running</string>
+    <string name="video">Video</string>
+
+    <!-- String's for code_options.xml: -->
+    <string name="local_database">Local Database</string>
+    <string name="web_service">Web Service</string>
+    <string name="loc">LOC</string>
+    <string name="web">WEB</string>
+
+    <!-- String's for activity_main.xml: -->
+    <string name="mainImage">Main Image</string>
+    <string name="start">Start</string>
+
+    <!-- String's for activity_login.xml: -->
+    <string name="user">User:</string>
+    <string name="hint_user">11111111A</string>
+    <string name="password">Password:</string>
+    <string name="hint_password">1234</string>
+
+    <!-- String's for activity_new_user.xml: -->
+    <string name="userData">User data:</string>
+    <string name="label_user_nif">User:</string>
+    <string name="hint_identification_document">20056933J</string>
+    <string name="label_user_name">Name:</string>
+    <string name="hint_user_name">Manuel</string>
+    <string name="label_user_surname">Surname:</string>
+    <string name="hint_user_surname">Espinosa Torres</string>
+    <string name="label_user_security_key">Password:</string>
+    <string name="hint_user_security_key">1234</string>
+    <string name="label_user_email">eMail:</string>
+    <string name="hint_user_email">maneletorres@hotmail.com</string>
+
+    <!-- String's for activity_new_transfer.xml: -->
+    <string name="transfer_data">Transfer data:</string>
+    <string name="label_origin_account">Origin account:</string>
+    <string name="hint_origin_account">1000000005</string>
+    <string name="label_destination_account">Destination account:</string>
+    <string name="hint_destination_account">1000000003</string>
+    <string name="label_quantity">Transfer\'s quantity:</string>
+    <string name="hint_quantity">200.00</string>
+    <string name="label_transfer_concept">Transfer\'s concept:</string>
+    <string name="hint_concept">Light receipt for the month of May</string>
+
+    <!-- String's for activity_new_atm.xml: -->
+    <string name="atmData">ATM Data:</string>
+    <string name="label_atm_name">Name:</string>
+    <string name="hint_atm_name">Banco Santander</string>
+    <string name="label_atm_address">Address:</string>
+    <string name="hint_atm_address">C/Mayor, 51</string>
+    <string name="label_atm_postal_code">Postal code:</string>
+    <string name="hint_atm_postal_code">46713</string>
+    <string name="label_atm_location">Location:</string>
+    <string name="hint_atm_location">Bellreguard</string>
+    <string name="label_atm_latitude">Latitude:</string>
+    <string name="hint_atm_latitude">39.47600769999999</string>
+    <string name="label_atm_longitude">Longitude:</string>
+    <string name="hint_atm_longitude">-0.3524475000000393 </string>
+    <string name="account_number">Account number:</string>
+    <string name="no_stored_ATMs">There is no ATM stored in the database.</string>
+    <string name="error_entering_password">" An error has occurred and the password could not be modified."</string>
+    <string name="old_password_entered">" You have entered an old password. The change has not taken place."</string>
+    <string name="password_modified">The password has been modified correctly.</string>
+</resources>

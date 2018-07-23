@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_preferences"
+        android:icon="@drawable/settings"
+        android:orderInCategory="101"
+        android:title="@string/action_preferences"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_update"
+        android:icon="@drawable/pencil"
+        android:orderInCategory="101"
+        android:title="@string/action_update"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_delete"
+        android:icon="@drawable/delete"
+        android:orderInCategory="101"
+        android:title="@string/action_delete"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_save"
+        android:icon="@drawable/content_save"
+        android:orderInCategory="101"
+        android:title="@string/action_save"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_gps"
+        android:icon="@drawable/crosshairs_gps"
+        android:orderInCategory="101"
+        android:title="@string/action_gps"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_visibility"
+        android:icon="@drawable/eye"
+        android:orderInCategory="101"
+        android:title="@string/action_view"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/plus_circle"
+        android:orderInCategory="101"
+        android:title="@string/action_add"
+        app:showAsAction="ifRoom" />
+
+</menu>

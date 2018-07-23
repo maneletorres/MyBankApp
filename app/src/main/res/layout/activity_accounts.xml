@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/RelativeLayoutStyle">
+
+    <TextView
+        android:id="@+id/headboardTextView"
+        style="@style/HeaderTextViewStyle"
+        android:text="@string/accounts_header" />
+
+    <TextView
+        android:id="@+id/noDataTextView"
+        style="@style/TextViewStyle"
+        android:layout_height="match_parent"
+        android:layout_below="@id/headboardTextView"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/empty_list"
+        android:textSize="@dimen/header_text"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/list"
+        style="@style/ListViewStyle"
+        android:layout_below="@id/headboardTextView"
+        android:layout_marginTop="@dimen/list_view_margin_top" />
+
+</RelativeLayout>

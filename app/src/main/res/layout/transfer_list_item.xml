@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LinearLayoutStyle"
+    android:baselineAligned="false">
+
+    <TextView
+        android:id="@+id/transferDescription"
+        style="@style/TextViewStyle"
+        android:layout_marginBottom="@dimen/transfer_list_item_margin_bottom" />
+
+</LinearLayout>

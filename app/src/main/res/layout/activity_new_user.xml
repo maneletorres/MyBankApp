@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/RelativeLayoutStyle">
+
+    <ScrollView style="@style/ScrollViewStyle">
+
+        <LinearLayout style="@style/LinearLayoutStyle">
+
+            <TextView
+                android:id="@+id/headboardTextView"
+                style="@style/HeaderTextViewStyle"
+                android:text="@string/userData" />
+
+            <TextView
+                android:id="@+id/label_user_nif"
+                style="@style/TextViewStyle"
+                android:text="@string/label_user_nif"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/nifEditText"
+                style="@style/EditTextStyle"
+                android:hint="@string/hint_identification_document"
+                android:nextFocusDown="@id/nameEditText" />
+
+            <TextView
+                android:id="@+id/label_user_name"
+                style="@style/TextViewStyle"
+                android:text="@string/label_user_name"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/nameEditText"
+                style="@style/EditTextStyle"
+                android:hint="@string/hint_user_name"
+                android:nextFocusDown="@id/surnameEditText" />
+
+            <TextView
+                android:id="@+id/label_user_surname"
+                style="@style/TextViewStyle"
+                android:text="@string/label_user_surname"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/surnameEditText"
+                style="@style/EditTextStyle"
+                android:hint="@string/hint_user_surname"
+                android:nextFocusDown="@id/securityKeyEditText" />
+
+            <TextView
+                android:id="@+id/label_user_security_key"
+                style="@style/TextViewStyle"
+                android:text="@string/label_user_security_key"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/securityKeyEditText"
+                style="@style/EditTextStyle"
+                android:hint="@string/hint_user_security_key"
+                android:inputType="textPassword"
+                android:nextFocusDown="@id/emailEditText" />
+
+            <TextView
+                android:id="@+id/label_user_email"
+                style="@style/TextViewStyle"
+                android:text="@string/label_user_email"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/emailEditText"
+                style="@style/EditTextStyle"
+                android:hint="@string/hint_user_email"
+                android:inputType="textEmailAddress" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

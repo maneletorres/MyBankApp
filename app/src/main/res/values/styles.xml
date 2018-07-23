@@ -1,0 +1,90 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style for RelativeLayout's. -->
+    <style name="RelativeLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">@dimen/relative_layout_margin</item>
+    </style>
+
+    <!-- Style for LinearLayout's. -->
+    <style name="LinearLayoutStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <!-- Style for ScrollView'S: -->
+    <style name="ScrollViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <!-- Style for ListView'S: -->
+    <style name="ListViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Style for header TextView's: -->
+    <style name="HeaderTextViewStyle">
+        <item name="android:layout_margin">@dimen/header_text_view_margin</item>
+        <item name="android:textSize">@dimen/header_text</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Style for the TextView's: -->
+    <style name="TextViewStyle">
+        <item name="android:layout_marginTop">@dimen/text_view_margin_top</item>
+        <item name="android:layout_marginRight">@dimen/text_view_margin_right_left</item>
+        <item name="android:layout_marginLeft">@dimen/text_view_margin_right_left</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textSize">@dimen/normal_text</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Style for the EditText's: -->
+    <style name="EditTextStyle">
+        <item name="android:layout_marginRight">@dimen/edit_text_margin_right_left</item>
+        <item name="android:layout_marginLeft">@dimen/edit_text_margin_right_left</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/normal_text</item>
+        <item name="android:inputType">text</item>
+        <item name="android:imeOptions">actionDone</item>
+        <item name="android:ems">10</item>
+    </style>
+
+    <!-- Style for the normal Button's: -->
+    <style name="ButtonStyle">
+        <item name="android:backgroundTint">@color/colorAccent</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textSize">@dimen/button_text</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Style for the option Button's: -->
+    <style name="OptionsButtonStyle">
+        <item name="android:backgroundTint">@color/colorAccent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginRight">@dimen/option_button_margin_right_left</item>
+        <item name="android:textSize">@dimen/button_text</item>
+        <item name="android:layout_marginLeft">@dimen/option_button_margin_right_left</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/option_button_margin_bottom</item>
+    </style>
+
+</resources>

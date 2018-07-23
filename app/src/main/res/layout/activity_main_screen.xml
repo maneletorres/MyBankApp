@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/RelativeLayoutStyle">
+
+    <ScrollView style="@style/ScrollViewStyle">
+
+        <LinearLayout style="@style/LinearLayoutStyle">
+
+            <TextView
+                android:id="@+id/headboardTextView"
+                style="@style/HeaderTextViewStyle"
+                android:text="@string/options" />
+
+            <Button
+                android:id="@+id/globalPositionButton"
+                style="@style/OptionsButtonStyle"
+                android:drawableStart="@drawable/information"
+                android:text="@string/global_position" />
+
+            <Button
+                android:id="@+id/incomeButton"
+                style="@style/OptionsButtonStyle"
+                android:drawableStart="@drawable/bitcoin"
+                android:text="@string/income" />
+
+            <Button
+                android:id="@+id/transfersButton"
+                style="@style/OptionsButtonStyle"
+                android:drawableStart="@drawable/transfer"
+                android:text="@string/transfers" />
+
+            <Button
+                android:id="@+id/changeSecurityKeyButton"
+                style="@style/OptionsButtonStyle"
+                android:drawableStart="@drawable/key"
+                android:text="@string/change_password" />
+
+            <Button
+                android:id="@+id/closestATMsButton"
+                style="@style/OptionsButtonStyle"
+                android:drawableStart="@drawable/ic_near_me_black_24dp"
+                android:text="@string/atms" />
+
+            <Button
+                android:id="@+id/exitButton"
+                style="@style/OptionsButtonStyle"
+                android:drawableStart="@drawable/exit_to_app"
+                android:text="@string/exit" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/RelativeLayoutStyle">
+
+    <ScrollView style="@style/ScrollViewStyle">
+
+        <RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+            style="@style/RelativeLayoutStyle"
+            tools:context="MainActivity">
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/mainImage"
+                android:src="@drawable/bank" />
+
+            <Button
+                android:id="@+id/startButton"
+                style="@style/ButtonStyle"
+                android:layout_below="@id/image"
+                android:layout_marginBottom="@dimen/option_button_margin_bottom"
+                android:text="@string/start" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/RelativeLayoutStyle">
+
+    <ScrollView style="@style/ScrollViewStyle">
+
+        <LinearLayout style="@style/LinearLayoutStyle">
+
+            <TextView
+                android:id="@+id/headboardTextView"
+                style="@style/HeaderTextViewStyle"
+                android:text="@string/atmData" />
+
+            <TextView
+                android:id="@+id/label_atm_name"
+                style="@style/TextViewStyle"
+                android:text="@string/label_atm_name"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/name"
+                style="@style/EditTextStyle"
+                android:hint="@string/hint_atm_name" />
+
+            <TextView
+                android:id="@+id/label_address"
+                style="@style/TextViewStyle"
+                android:text="@string/label_atm_address"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/address"
+                style="@style/EditTextStyle"
+                android:hint="@string/hint_atm_address" />
+
+            <TextView
+                android:id="@+id/label_postal_code"
+                style="@style/TextViewStyle"
+                android:text="@string/label_atm_postal_code"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/postal_code"
+                style="@style/EditTextStyle"
+                android:hint="@string/hint_atm_postal_code"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/label_location"
+                style="@style/TextViewStyle"
+                android:text="@string/label_atm_location"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/location"
+                style="@style/EditTextStyle"
+                android:hint="@string/hint_atm_location" />
+
+            <TextView
+                android:id="@+id/label_latitude"
+                style="@style/TextViewStyle"
+                android:text="@string/label_atm_latitude"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/latitude"
+                style="@style/EditTextStyle"
+                android:hint="@string/hint_atm_latitude"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/label_longitude"
+                style="@style/TextViewStyle"
+                android:text="@string/label_atm_longitude"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/longitude"
+                style="@style/EditTextStyle"
+                android:hint="@string/hint_atm_longitude" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/RelativeLayoutStyle">
+
+    <ScrollView style="@style/ScrollViewStyle">
+
+        <LinearLayout style="@style/LinearLayoutStyle">
+
+            <TextView
+                android:id="@+id/headboardTextView"
+                style="@style/HeaderTextViewStyle"
+                android:text="@string/login" />
+
+            <TextView
+                android:id="@+id/userTextView"
+                style="@style/TextViewStyle"
+                android:text="@string/user"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/userEditText"
+                style="@style/EditTextStyle"
+                android:hint="@string/hint_user"
+                android:inputType="text"
+                android:labelFor="@id/userEditText" />
+
+            <TextView
+                android:id="@+id/passwordTextView"
+                style="@style/TextViewStyle"
+                android:text="@string/password"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/passwordEditText"
+                style="@style/EditTextStyle"
+                android:hint="@string/hint_password"
+                android:inputType="textPassword"
+                android:labelFor="@id/passwordEditText" />
+
+            <LinearLayout
+                style="@style/LinearLayoutStyle"
+                android:layout_marginTop="32dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/enterButton"
+                    style="@style/ButtonStyle"
+                    android:layout_marginEnd="8dp"
+                    android:text="@string/enter" />
+
+                <Button
+                    android:id="@+id/exitButton"
+                    style="@style/ButtonStyle"
+                    android:layout_marginStart="8dp"
+                    android:text="@string/exit" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

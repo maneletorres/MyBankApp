@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/accessibility_options">
+
+        <ListPreference
+            android:dialogTitle="@string/indicate_database_type"
+            android:entries="@array/option"
+            android:entryValues="@array/codeOption"
+            android:key="option"
+            android:summary="@string/database_question"
+            android:title="@string/database_type" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/navigation_options">
+
+        <CheckBoxPreference
+            android:key="playMusic"
+            android:summary="@string/music_description"
+            android:title="@string/music" />
+
+        <CheckBoxPreference
+            android:key="playWelcomeVideo"
+            android:summary="@string/video_description"
+            android:title="@string/video" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

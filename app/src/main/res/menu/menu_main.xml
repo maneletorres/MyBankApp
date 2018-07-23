@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainScreen">
+
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@drawable/dots_horizontal_circle"
+        android:orderInCategory="101"
+        android:title="@string/action_settings"
+        app:showAsAction="always">
+        <menu>
+
+            <item
+                android:id="@+id/globalPosition"
+                android:icon="@drawable/information"
+                android:orderInCategory="100"
+                android:title="@string/action_global_position"
+                tools:showAsAction="ifRoom|withText" />
+            <item
+                android:id="@+id/income"
+                android:icon="@drawable/bitcoin"
+                android:orderInCategory="100"
+                android:title="@string/action_income"
+                tools:showAsAction="ifRoom|withText" />
+            <item
+                android:id="@+id/transfers"
+                android:icon="@drawable/transfer"
+                android:orderInCategory="100"
+                android:title="@string/action_transfers"
+                tools:showAsAction="ifRoom|withText" />
+            <item
+                android:id="@+id/changeSecurityKeyButton"
+                android:icon="@drawable/key"
+                android:orderInCategory="100"
+                android:title="@string/action_change_password"
+                tools:showAsAction="ifRoom|withText" />
+            <item
+                android:id="@+id/closestATMs"
+                android:icon="@drawable/ic_near_me_black_24dp"
+                android:orderInCategory="100"
+                android:title="@string/action_near"
+                tools:showAsAction="ifRoom|withText" />
+            <item
+                android:id="@+id/exitApp"
+                android:icon="@drawable/exit_to_app"
+                android:orderInCategory="100"
+                android:title="@string/action_exit"
+                tools:showAsAction="ifRoom|withText" />
+        </menu>
+    </item>
+</menu>

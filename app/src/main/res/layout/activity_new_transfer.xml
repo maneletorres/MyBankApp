@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/RelativeLayoutStyle">
+
+    <ScrollView style="@style/ScrollViewStyle">
+
+        <LinearLayout style="@style/LinearLayoutStyle">
+
+            <TextView
+                android:id="@+id/headboardTextView"
+                style="@style/HeaderTextViewStyle"
+                android:text="@string/transfer_data" />
+
+            <TextView
+                android:id="@+id/label_origin_account"
+                style="@style/TextViewStyle"
+                android:text="@string/label_origin_account"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/originAccountSpinner"
+                style="@style/TextViewStyle" />
+
+            <TextView
+                android:id="@+id/label_destination_account"
+                style="@style/TextViewStyle"
+                android:text="@string/label_destination_account"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/destinationAccountEditText"
+                style="@style/EditTextStyle"
+                android:hint="@string/hint_destination_account"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/label_transfer_quantity"
+                style="@style/TextViewStyle"
+                android:text="@string/label_quantity"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/quantityEditText"
+                style="@style/EditTextStyle"
+                android:hint="@string/hint_quantity"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                android:id="@+id/label_transfer_concept"
+                style="@style/TextViewStyle"
+                android:text="@string/label_transfer_concept"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/conceptEditText"
+                style="@style/EditTextStyle"
+                android:hint="@string/hint_concept" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

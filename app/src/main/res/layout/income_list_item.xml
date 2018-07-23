@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LinearLayoutStyle"
+    android:baselineAligned="false"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        style="@style/LinearLayoutStyle"
+        android:layout_weight="1">
+
+        <TextView
+            style="@style/TextViewStyle"
+            android:text="@string/account_number"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/TextViewStyle"
+            android:text="@string/current_balance"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LinearLayoutStyle"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/accountNumber"
+            style="@style/TextViewStyle" />
+
+        <TextView
+            android:id="@+id/accountBalance"
+            style="@style/TextViewStyle"
+            android:layout_marginBottom="@dimen/income_list_item_margin_bottom" />
+
+    </LinearLayout>
+
+</LinearLayout>

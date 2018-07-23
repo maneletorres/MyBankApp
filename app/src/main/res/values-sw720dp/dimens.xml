@@ -1,0 +1,27 @@
+<resources>
+    <dimen name="header_text">24sp</dimen>
+    <dimen name="normal_text">16sp</dimen>
+
+    <!-- Dimens for ListView's: -->
+    <dimen name="list_view_margin_top">8dp</dimen>
+    <dimen name="income_list_item_margin_bottom">8dp</dimen>
+    <dimen name="transfer_list_item_margin_bottom">16dp</dimen>
+
+    <!-- Dimens for RelativeLayout's: -->
+    <dimen name="relative_layout_margin">16dp</dimen>
+
+    <!-- Dimens for HeaderTextView's: -->
+    <dimen name="header_text_view_margin">16dp</dimen>
+
+    <!-- -Dimens for TextView's: -->
+    <dimen name="text_view_margin_top">10dp</dimen>
+    <dimen name="text_view_margin_right_left">16dp</dimen>
+
+    <!-- Dimens for EditText's: -->
+    <dimen name="edit_text_margin_right_left">16dp</dimen>
+
+    <!-- Dimens for the options Button's: -->
+    <dimen name="button_text">14sp</dimen>
+    <dimen name="option_button_margin_right_left">32dp</dimen>
+    <dimen name="option_button_margin_bottom">16dp</dimen>
+</resources>
